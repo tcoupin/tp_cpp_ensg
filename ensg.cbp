@@ -32,12 +32,14 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="main.cpp" />
-		<Unit filename="tp1.cpp">
-			<Option target="&lt;{~None~}&gt;" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/tp1/tp1.cpp">
+			<Option target="Release" />
 		</Unit>
-		<Unit filename="tp2.cpp">
-			<Option target="&lt;{~None~}&gt;" />
+		<Unit filename="src/tp2/tTableau.cpp" />
+		<Unit filename="src/tp2/tTableau.h" />
+		<Unit filename="src/tp2/tp2.cpp">
+			<Option target="Release" />
 		</Unit>
 		<Extensions>
 			<code_completion />
