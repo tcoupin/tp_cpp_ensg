@@ -6,6 +6,6 @@ int main()
 {
     std::cout << "Hello world!" << std::endl;
     tp1();
-    //tp2();
+    tp2();
     return 0;
 }
