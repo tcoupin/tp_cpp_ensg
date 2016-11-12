@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1478006999 source:/home/tcoupin/workspace/tp_ensg/ensg/main.cpp
+	<iostream>
+	"tp1.cpp"
+
+1478007147 /home/tcoupin/workspace/tp_ensg/ensg/tp1.cpp
+	<iostream>
+
