@@ -12,6 +12,7 @@ void afficherCarresEntiers(int max, int min){
 	int i = min ;
 	while ( i <= max ) {
 		std::cout << i*i << std::endl ;
+		i++;
 	}
 }
 
