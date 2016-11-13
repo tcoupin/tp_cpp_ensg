@@ -33,14 +33,18 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="src/main.cpp" />
-		<Unit filename="src/tp1/tp1.cpp">
-			<Option target="Release" />
-		</Unit>
+		<Unit filename="src/tp1/Complexe.cpp" />
+		<Unit filename="src/tp1/Complexe.h" />
+		<Unit filename="src/tp1/exo1.cpp" />
+		<Unit filename="src/tp1/exo1.h" />
+		<Unit filename="src/tp1/exo2.cpp" />
+		<Unit filename="src/tp1/exo2.h" />
+		<Unit filename="src/tp1/pointeurs.cpp" />
+		<Unit filename="src/tp1/pointeurs.h" />
+		<Unit filename="src/tp1/tp1.h" />
 		<Unit filename="src/tp2/tTableau.cpp" />
 		<Unit filename="src/tp2/tTableau.h" />
-		<Unit filename="src/tp2/tp2.cpp">
-			<Option target="Release" />
-		</Unit>
+		<Unit filename="src/tp2/tp2.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />

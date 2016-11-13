@@ -6,13 +6,15 @@
 1478007147 /home/tcoupin/workspace/tp_ensg/ensg/tp1.cpp
 	<iostream>
 
-1478969955 source:/home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/ensg/src/main.cpp
+1479049360 source:/home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/ensg/src/main.cpp
 	<iostream>
-	"tp1/tp1.cpp"
-	"tp2/tp2.cpp"
+	"tp1/tp1.h"
+	"tp2/tp2.h"
 
-1478007375 /home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/ensg/src/tp1/tp1.cpp
+1479048345 /home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/ensg/src/tp1/tp1.cpp
 	<iostream>
+	"exo1.h"
+	"exo2.h"
 
 1478985879 /home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/ensg/src/tp2/tp2.cpp
 	<iostream>
@@ -20,11 +22,39 @@
 
 1478985303 /home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/ensg/src/tp2/tTableau.h
 
-1478985119 source:/home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/ensg/src/tp2/tTableau.cpp
+1478985857 source:/home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/ensg/src/tp2/tTableau.cpp
 	"tTableau.h"
 	<iostream>
 
 1478971603 /home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/ensg/src/tp2/tTableau.cpp
 	"tTableau.h"
+	<iostream>
+
+1479048754 /home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/ensg/src/tp1/exo1.h
+
+1479051831 /home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/ensg/src/tp1/exo2.h
+
+1479052744 /home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/ensg/src/tp1/tp1.h
+	<iostream>
+	"exo1.h"
+	"exo2.h"
+
+1478985879 /home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/ensg/src/tp2/tp2.h
+	<iostream>
+	"tTableau.h"
+
+1479051609 source:/home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/ensg/src/tp1/Complexe.cpp
+	"Complexe.h"
+	<iostream>
+	<math.h>
+
+1479049609 /home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/ensg/src/tp1/Complexe.h
+
+1479051706 source:/home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/ensg/src/tp1/exo1.cpp
+	<iostream>
+	"exo1.h"
+
+1479052232 source:/home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/ensg/src/tp1/exo2.cpp
+	"exo2.h"
 	<iostream>
 

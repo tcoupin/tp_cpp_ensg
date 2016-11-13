@@ -1,5 +1,6 @@
 #include "Complexe.h"
 #include <iostream>
+#include <math.h>
 
 Complexe addition(Complexe& c1, Complexe& c2){
 	Complexe c;
@@ -8,8 +9,8 @@ Complexe addition(Complexe& c1, Complexe& c2){
 	return c;
 }
 
-double module(Complexe c){
-	return ((c.re)**2+(c.im)**2)**(1/2);
+float module(Complexe c){
+    return sqrtf(powf(c.re,2.0)+powf(c.im,2.0)); //sqrt et pow avec un f puisqu'on travaille avec des float (cf http://en.cppreference.com/w/c/numeric/math/pow)
 }
 
 void afficherComplexe(Complexe c)
