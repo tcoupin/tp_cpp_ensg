@@ -1,6 +1,6 @@
 struct Complexe {
-    int re;
-    int im;
+    float re;
+    float im;
 };
 
 Complexe addition(Complexe& c1, Complexe& c2);

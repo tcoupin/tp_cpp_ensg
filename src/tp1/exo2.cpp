@@ -1,4 +1,5 @@
 #include "exo2.h"
+#include <iostream>
 
 int factorielle(int n){
 	if(n==0 || n==1){
@@ -32,10 +33,10 @@ int timeInSecond(int h, int min, int s) {
 
 void afficherDureeSeconde(){
 	int h1, m1, s1, h2, m2, s2;
-	std::out << "Saisissez une heure en hh:mm:ss" << std::endl;
-	std::cin >> h1 >> m1 >> s1 >> std::endl;
-	std::out << "Saisissez une seconde heure en hh:mm:ss" << std::endl;
-	std::cin >> h2 >> m2 >> s2 >> std::endl;
+	std::cout << "Saisissez une heure en hh:mm:ss" << std::endl;
+	std::cin >> h1 >> m1 >> s1;
+	std::cout << "Saisissez une seconde heure en hh:mm:ss" << std::endl;
+	std::cin >> h2 >> m2 >> s2;
 
-	std::out << "La durée entre les deux vaut : " << timeInSecond(h2,m2,s2) - timeInSecond(h1,m1,s1) << std::endl;
+	std::cout << "La durée entre les deux vaut : " << timeInSecond(h2,m2,s2) - timeInSecond(h1,m1,s1) << std::endl;
 }

@@ -1,3 +1,3 @@
-int swap(int *pa, int *pb);
+void swap(int *pa, int *pb);
 
-void minmax(int *p, int n, int *pmin, int *pmax)
+void minmax(int *p, int n, int *pmin, int *pmax);
