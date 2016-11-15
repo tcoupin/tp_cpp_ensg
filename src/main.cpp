@@ -1,6 +1,6 @@
 #include <iostream>
-#include "tp1/tp1.cpp"
-#include "tp2/tp2.cpp"
+#include "tp1/tp1.h"
+#include "tp2/tp2.h"
 
 int main()
 {
