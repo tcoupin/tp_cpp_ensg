@@ -14,6 +14,11 @@ class TableauDyn
         float mean();
         TableauDyn& operator=(const TableauDyn& tab);
 
+        void write(char* file);
+        static TableauDyn read(char* file);
+        void writeb(char* file);
+        static TableauDyn readb(char* file);
+
     protected:
 
     private:

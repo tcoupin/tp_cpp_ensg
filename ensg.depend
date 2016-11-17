@@ -69,16 +69,17 @@
 
 1479387792 /home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/ensg/src/tp2/Tableau.h
 
-1479391694 source:/home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/ensg/src/tp2/tp2.cpp
+1479394260 source:/home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/ensg/src/tp2/tp2.cpp
 	<iostream>
 	"Tableau.h"
 	"TableauDyn.h"
 
-1479392227 source:/home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/ensg/src/tp2/TableauDyn.cpp
+1479394452 source:/home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/ensg/src/tp2/TableauDyn.cpp
 	<iostream>
+	<fstream>
 	"TableauDyn.h"
 
 1479390126 /home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/ensg/include/TableauDyn.h
 
-1479392158 /home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/ensg/src/tp2/TableauDyn.h
+1479393269 /home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/ensg/src/tp2/TableauDyn.h
 

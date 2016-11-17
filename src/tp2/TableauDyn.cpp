@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 #include "TableauDyn.h"
 
 TableauDyn::TableauDyn(long int taille): nbmax(taille) , nbvalues(0) //: commenter pour faire planter le print et introduire le debug
@@ -68,4 +69,58 @@ TableauDyn& TableauDyn::operator=(const TableauDyn& tab){
     nbmax = tab.nbmax;
     nbvalues = 0;
     return *this;
+}
+
+
+void TableauDyn::write(char* file)
+{
+    std::fstream fs;
+    fs.open(file, std::fstream::out);
+    fs << nbmax << std::endl << nbvalues << std::endl;
+    for (int i = 0;i<nbvalues;i++){
+        fs << values[i] << std::endl;
+    }
+    fs.close();
+}
+
+TableauDyn TableauDyn::read(char* file)
+{
+    std::fstream fs;
+    fs.open(file, std::fstream::in);
+    long int nbmax;
+    fs >> nbmax;
+    TableauDyn toreturn(nbmax);
+    fs >> toreturn.nbvalues;
+    for (int i = 0;i<toreturn.nbvalues;i++){
+        fs >> toreturn.values[i];
+    }
+    fs.close();
+    return toreturn;
+}
+
+void TableauDyn::writeb(char* file)
+{
+    std::fstream fs;
+    fs.open(file, std::fstream::out|std::fstream::binary);
+    fs.write((char*) &nbmax, sizeof(nbmax));
+    fs.write((char*) &nbvalues, sizeof(nbvalues));
+    for (int i = 0;i<nbvalues;i++){
+        fs.write((char*) &values[i], sizeof(values[i]));
+    }
+    fs.close();
+}
+
+TableauDyn TableauDyn::readb(char* file)
+{
+    std::fstream fs;
+    fs.open(file, std::fstream::in|std::fstream::binary);
+    long int nbmax;
+    fs.read((char*)&nbmax, sizeof(nbmax));
+    TableauDyn toreturn(nbmax);
+    fs.read((char*)&(toreturn.nbvalues), sizeof(toreturn.nbvalues));
+    for (int i = 0;i<toreturn.nbvalues;i++){
+        fs.read((char*)&(toreturn.values[i]), sizeof(toreturn.values[i]));
+    }
+    fs.close();
+    return toreturn;
 }

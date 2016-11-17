@@ -74,12 +74,24 @@ void tp2_exo2(){
     mTableDyn.print();
 }
 
-
+void tp2_exo3(){
+    std::cout << "--- TP2/Fichiers/plaintext ---" << std::endl;
+    TableauDyn tosave(4);
+    tosave.input();
+    tosave.write("./output_plain");
+    TableauDyn toto = TableauDyn::read("./input_plain");
+    toto.print();
+    std::cout << "--- TP2/Fichiers/binaire ---" << std::endl;
+    tosave.writeb("./output_bin");
+    TableauDyn tata = TableauDyn::readb("./input_bin");
+    tata.print();
+}
 
 void tp2(){
     std::cout << "=== TP2 ===" << std::endl;
     //tp2_exo1_part1();
     //tp2_exo1_part2();
-    tp2_exo2();
+    //tp2_exo2();
+    tp2_exo3();
 }
 
