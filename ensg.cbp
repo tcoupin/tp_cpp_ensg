@@ -41,6 +41,7 @@
 		<Unit filename="src/tp1/exo2.h" />
 		<Unit filename="src/tp1/pointeurs.cpp" />
 		<Unit filename="src/tp1/pointeurs.h" />
+		<Unit filename="src/tp1/tp1.cpp" />
 		<Unit filename="src/tp1/tp1.h" />
 		<Unit filename="src/tp2/tTableau.cpp" />
 		<Unit filename="src/tp2/tTableau.h" />
