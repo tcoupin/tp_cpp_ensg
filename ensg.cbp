@@ -43,8 +43,9 @@
 		<Unit filename="src/tp1/pointeurs.h" />
 		<Unit filename="src/tp1/tp1.cpp" />
 		<Unit filename="src/tp1/tp1.h" />
-		<Unit filename="src/tp2/tTableau.cpp" />
-		<Unit filename="src/tp2/tTableau.h" />
+		<Unit filename="src/tp2/Tableau.cpp" />
+		<Unit filename="src/tp2/Tableau.h" />
+		<Unit filename="src/tp2/tp2.cpp" />
 		<Unit filename="src/tp2/tp2.h" />
 		<Extensions>
 			<code_completion />

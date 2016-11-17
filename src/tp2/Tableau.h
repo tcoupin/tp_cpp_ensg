@@ -1,12 +1,12 @@
-#ifndef TTABLEAU_H
-#define TTABLEAU_H
+#ifndef TABLEAU_H
+#define TABLEAU_H
 
 
-class tTableau
+class Tableau
 {
     public:
-        tTableau();
-        virtual ~tTableau();
+        Tableau();
+        ~Tableau();
         void push(float value);
         void pushUnsecure(float value);
         void print();
@@ -16,8 +16,8 @@ class tTableau
         float mean();
         long int length();
         float get(long int i);
-        tTableau operator+(tTableau tab);
-        void sort();
+        Tableau operator+(Tableau tab);
+        void sort(bool asc = true);
 
     protected:
 
@@ -27,5 +27,5 @@ class tTableau
         long int nbvalues;
 };
 
-#endif // TTABLEAU_H
+#endif // TABLEAU_H
 

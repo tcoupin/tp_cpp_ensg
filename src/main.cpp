@@ -5,7 +5,7 @@
 int main()
 {
     std::cout << "Hello world!" << std::endl;
-    tp1();
+    //tp1();
     tp2();
     return 0;
 }
