@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Tableau.h"
+#include "TableauDyn.h"
 
 void tp2_exo1_part1(){
     std::cout << "--- TP2/Tableau/Test surallocation ---" << std::endl;
@@ -29,7 +30,7 @@ void tp2_exo1_part1(){
 
 void tp2_exo1_part2(){
 
-    std::cout << "--- TP2/Test méthodes ---" << std::endl;
+    std::cout << "--- TP2/Tableau/Test méthodes ---" << std::endl;
 
     Tableau monTableau;
     monTableau.input();
@@ -51,9 +52,34 @@ void tp2_exo1_part2(){
     troiz.print();
 }
 
+void afficheTableau(TableauDyn tab){
+    std::cout << "---afficheTableau ";
+    tab.print();
+    std::cout << "---FIN afficheTableau " << std::endl ;
+}
+
+void tp2_exo2(){
+
+    std::cout << "--- TP2/TableauDyn/Test méthodes ---" << std::endl;
+    TableauDyn mTableDyn(3);
+    mTableDyn.input();
+    mTableDyn.print();
+
+    mTableDyn = TableauDyn(2); // Possible grâce à la surcharge de l'opérateur =. Une bonne explication sur http://stackoverflow.com/a/6575474
+    mTableDyn.input();
+    mTableDyn.print();
+
+    std::cout << "--- TP2/TableauDyn/Affichage ---" << std::endl;
+    afficheTableau(mTableDyn);
+    mTableDyn.print();
+}
+
+
+
 void tp2(){
     std::cout << "=== TP2 ===" << std::endl;
-    tp2_exo1_part1();
-    tp2_exo1_part2();
+    //tp2_exo1_part1();
+    //tp2_exo1_part2();
+    tp2_exo2();
 }
 
