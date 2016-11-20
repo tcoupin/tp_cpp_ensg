@@ -1,4 +1,5 @@
 #include <iostream>
+#include "tp2.h"
 #include "Tableau.h"
 #include "TableauDyn.h"
 
@@ -89,9 +90,9 @@ void tp2_exo3(){
 
 void tp2(){
     std::cout << "=== TP2 ===" << std::endl;
-    //tp2_exo1_part1();
-    //tp2_exo1_part2();
-    //tp2_exo2();
+    tp2_exo1_part1();
+    tp2_exo1_part2();
+    tp2_exo2();
     tp2_exo3();
 }
 

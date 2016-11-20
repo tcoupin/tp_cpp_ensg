@@ -6,7 +6,7 @@ class TableauDyn
 {
     public:
         TableauDyn(long int taille);
-        TableauDyn(const TableauDyn &);
+        TableauDyn(const TableauDyn &source);
         ~TableauDyn();
         void print();
         void input();
