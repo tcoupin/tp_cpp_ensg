@@ -52,8 +52,8 @@ void tp1_ecoComplexe(){
 void tp1_pointeurs(){
     std::cout << "--- TP1/ExoPointeur ---" << std::endl;
     std::cout << "--- TP1/ExoPointeur/Swap ---" << std::endl;
-    int* pa=2;
-    int* pa=3;
+    int* pa = (int*) 2;
+    int* pb = (int*) 3;
     std::cout << "pa : " << pa << " | pb : " << pb << std::endl;
     swap(pa,pb);
     std::cout << "pa : " << pa << " | pb : " << pb << std::endl;
