@@ -11,6 +11,7 @@ TableauDyn::TableauDyn(long int taille): nbmax(taille) , nbvalues(0) //: comment
 TableauDyn::~TableauDyn()
 {
     delete[] values;
+    std::cout << "-- TableauDyn destruction" << std::endl;
 }
 
 

@@ -84,6 +84,7 @@ Tableau Tableau::operator+(Tableau tab){
     Tableau result;
     for (long int i = 0; i<nbmax;i++){
         result.push(get(i)+tab.get(i));
+        //result.push(values[i]+tab.values[i]);
     }
     return result;
 }
