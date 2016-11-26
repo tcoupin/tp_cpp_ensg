@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1479490538 source:/home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/libexplorer/src/Element.cpp
+	"Element.h"
+	<sstream>
+
+1479490575 /home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/libexplorer/include/Element.h
+	<string>
+
+1479489660 source:/home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/libexplorer/src/File.cpp
+	"File.h"
+	<sstream>
+	<fstream>
+
+1479489519 /home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/libexplorer/include/File.h
+	"Element.h"
+
+1479563439 source:/home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/libexplorer/src/Folder.cpp
+	<sstream>
+	<dirent.h>
+	<sys/types.h>
+	"File.h"
+	"Folder.h"
+	<typeinfo>
+	<algorithm>
+	<iostream>
+
+1479549766 /home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/libexplorer/include/Folder.h
+	<vector>
+	"Element.h"
+
+1479472271 source:/home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/libexplorer/src/Link.cpp
+	<sstream>
+	"Link.h"
+
+1479472063 /home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/libexplorer/include/Link.h
+	"Element.h"
+
+1479548098 source:/home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/libexplorer/src/Explorer.cpp
+	"Explorer.h"
+	<string>
+	<sstream>
+	<vector>
+	<iostream>
+	<typeinfo>
+
+1479549623 /home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/libexplorer/include/Explorer.h
+	"Folder.h"
+

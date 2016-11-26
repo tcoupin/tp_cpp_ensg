@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1479564005 source:/home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/fileexplorer/main.cpp
+	<iostream>
+	"Color.h"
+	"Explorer.h"
+	<stdio.h>
+
+1479459270 /home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/libexplorer/include/File.h
+	"Element.h"
+
+1479490575 /home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/libexplorer/include/Element.h
+	<string>
+
+1479474163 /home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/fileexplorer/include/Color.h
+	<string>
+
+1479474181 source:/home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/fileexplorer/src/Color.cpp
+	<sstream>
+	"Color.h"
+
+1479478879 source:/home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/fileexplorer/src/FolderFactory.cpp
+	"FolderFactory.h"
+	<dirent.h>
+	<sys/types.h>
+	<fstream>
+	"File.h"
+	"Folder.h"
+	"Link.h"
+
+1479477663 /home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/fileexplorer/include/FolderFactory.h
+	"Folder.h"
+
+1479549766 /home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/libexplorer/include/Folder.h
+	<vector>
+	"Element.h"
+
+1479563818 /home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/libexplorer/include/Explorer.h
+	"Folder.h"
+
+1479472063 /home/tcoupin/ownCloud/Boulot/tp_cpp_ensg/libexplorer/include/Link.h
+	"Element.h"
+
